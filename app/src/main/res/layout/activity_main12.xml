@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:stretchColumns="*"
+    android:orientation="horizontal">
+
+    <TableLayout>
+       <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+           <Button
+               android:id="@+id/AA2"
+               android:layout_height="45dp"
+               android:text="AA"
+               android:visibility="invisible" />
+
+           <TextView
+               android:id="@+id/tvtr"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="220dp"
+               android:text="Seconds Remaining:"
+               android:textColor="@android:color/background_light"
+               android:textSize="18sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/tvtr2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="10dp"
+               android:text="0"
+               android:textColor="@android:color/background_light"
+               android:textSize="18sp"
+               android:textStyle="bold" />
+
+
+       </TableRow>
+    </TableLayout>
+    <TableLayout>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/AA"
+                android:layout_height="72dp"
+                android:text="AA"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/CC"
+                android:layout_height="match_parent"
+                android:text="CCCCCCCCCC"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/findme"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/alike_angular"
+                android:gravity="center"
+                android:text="Find Me:"
+                android:textColor="@android:color/background_light"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Fme"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="C"
+                android:textColor="@android:color/background_light"/>
+
+        </TableRow>
+    </TableLayout>
+    <TableLayout>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/BB"
+                android:layout_height="wrap_content"
+                android:text="BB"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+    </TableLayout>
+    <TableLayout>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/A"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="A"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/B"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="B"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/C"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="C"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/D"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="D"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/E"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="E"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/F"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="F"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/G"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="G"
+            android:textColor="@android:color/background_light"/>
+
+    </TableRow>
+    </TableLayout>
+    <TableLayout>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/H"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="H"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/I"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="I"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/J"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="J"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/K"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="K"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/L"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="L"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/M"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="M"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/N"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="N"
+            android:textColor="@android:color/background_light"/>
+
+    </TableRow>
+    </TableLayout>
+    <TableLayout>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/O"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="O"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/P"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="P"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/Q"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="Q"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/R"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="R"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/S"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="S"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/T"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="T"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/U"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="U"
+            android:textColor="@android:color/background_light"/>
+
+    </TableRow>
+
+    </TableLayout>
+    <TableLayout>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/V"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="V"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/W"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="W"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/X"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="X"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/Y"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="Y"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/Z"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="Z"
+            android:textColor="@android:color/background_light"/>
+
+
+    </TableRow>
+    </TableLayout>
+</TableLayout>

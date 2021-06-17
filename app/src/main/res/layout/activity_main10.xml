@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*">
+<TableLayout>
+
+    <TableRow
+        android:id="@+id/tr6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black">
+
+        <TextView
+            android:id="@+id/tvtr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:text="Seconds Remaining:"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/tvtr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="0"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+    </TableRow>
+</TableLayout>
+    <TableRow
+        android:id="@+id/tr5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt50"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt51"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bt52"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt40"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt41"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt42"
+            android:layout_width="124dp"
+            android:layout_height="98dp"
+            android:background="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr3">
+
+        <Button
+            android:id="@+id/bt30"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt31"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt32"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow android:id="@+id/tr2">
+
+        <Button
+            android:id="@+id/bt20"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt21"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt22"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+    <TableRow android:id="@+id/tr1">
+
+        <Button
+            android:id="@+id/bt10"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt11"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt12"
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+    <TableLayout    android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:stretchColumns="*">
+        <TableRow>
+
+            <Button
+                android:id="@+id/bt00"
+                android:layout_height="120dp"
+                android:background="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/bt01"
+
+                android:layout_height="120dp"
+                android:background="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/bt02"
+                android:layout_height="120dp"
+                android:background="@android:color/background_light" />
+
+
+            <Button
+                android:id="@+id/bt03"
+                android:layout_height="120dp"
+                android:background="@android:color/background_light"
+                />
+
+        </TableRow>
+    </TableLayout>
+</TableLayout>
+
